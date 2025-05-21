@@ -69,7 +69,7 @@ about:
         <br><br>
         Whether building resilient infrastructure, mentoring junior engineers, or bridging silos between ops and dev teams, I bring a pragmatic, automation-first approach to system reliability and delivery velocity.
     - heading: "Current Focus"
-      content: "Currently building an online presence showcasing open-source tooling, technical deep-dives, and otherwise sharing things I've learned."
+      content: "Sharing open-source tools, technical deep-dives, and practical insights through my blog and code to help others solve real-world infrastructure problems."
     - heading: "Personal Interests"
-      content: "When not coding, I enjoy running guitar scales, reading critical analyses of <i>The Sopranos</i>, playing video games, and figuring out something interesting to code or write about."
+      content: "Outside of work, I enjoy playing guitar, diving into critical analyses of The Sopranos, exploring video games, and working on side projects that blend code and curiosity."
 ---

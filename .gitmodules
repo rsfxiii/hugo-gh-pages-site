@@ -1,0 +1,3 @@
+[submodule "site/themes/LucentLink-Hugo"]
+	path = site/themes/LucentLink-Hugo
+	url = https://github.com/aquach/lucentlink-hugo.git

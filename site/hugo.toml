@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Ryan Ferguson's Portfolio"
+theme = "LucentLink-Hugo"
+minVersion = "0.115.0"
+
+[outputs]
+  home = ["HTML"]

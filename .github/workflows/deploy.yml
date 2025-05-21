@@ -20,13 +20,16 @@ jobs:
           submodules: recursive  # <-- This is the key line
           fetch-depth: 0         # Needed if submodules are based on non-default branches
 
+      - name: Initialize and update submodules
+        run: git submodule update --init --recursive
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.123.7'  # replace with your Hugo version
 
       - name: Build site
-        run: pwd && cd site && hugo --minify
+        run: cd site && hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -1,0 +1,15 @@
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(26, 184, 136, 0.912) 0%, rgba(255,255,255,0) 70%);
+    animation: float 15s infinite linear;
+}

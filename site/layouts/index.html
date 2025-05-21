@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <div class="container mx-auto px-4 py-12 max-w-md">
+        <!-- Profile Section -->
+        {{ partial "profile.html" . }}
+
+        <!-- Links Section -->
+        {{ partial "link-card.html" . }}
+
+        <!-- Messaging Etiquette section -->
+        <!-- {{ partial "messaging-etiquette.html" . }} -->
+
+        <!-- About Me section (If you want to write about yourself, uncomment the section below)--> 
+        {{ partial "about.html" . }}
+
+        <footer class="text-center text-xs opacity-60">
+            © 2025 LucentLink
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

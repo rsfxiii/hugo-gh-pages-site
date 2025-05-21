@@ -3,22 +3,19 @@ title: "Ryan Ferguson"
 # Profile settings
 profileImage: "images/headshot.jpeg"        # path under static/
 name: "Ryan Ferguson"
-description: ""
+description: "DevOps, Cloud & Site Reliability Expert"
 socials:
-  - url: "https://github.com/rsfxiii"
-    icon: "fab fa-github"
-  - url: "https://linkedin.com/in/ryanshawferguson"
-    icon: "fab fa-linkedin"
-
-
-# You can add as many links as you want!
+  # - url: "https://github.com/rsfxiii"
+  #   icon: "fab fa-github"
+  # - url: "https://linkedin.com/in/ryanshawferguson"
+  #   icon: "fab fa-linkedin"
 
 # Link cards
 links:
-  - href: "https://raijinn.xyz"
-    icon: "fas fa-globe"
-    title: "Personal Website"
-    description: "Check out my portfolio"
+  # - href: "https://raijinn.xyz"
+  #   icon: "fas fa-globe"
+  #   title: "Personal Website"
+  #   description: "Check out my portfolio"
   - href: "https://raijinn.substack.com"
     icon: "fas fa-blog"
     title: "My Blog"
@@ -27,34 +24,14 @@ links:
     icon: "fab fa-github"
     title: "GitHub"
     description: "Explore my open-source projects"
-  # - href: "https://youtube.com/yourchannel"
-  #   icon: "fab fa-youtube"
-  #   title: "YouTube Channel"
-  #   description: "Watch my tutorials"
-  # - href: "https://course.your.site"
-  #   icon: "fas fa-book"
-  #   title: "Online Course"
-  #   description: "Learn web development"
-  # - href: "https://buymeacoffee.com/you"
-  #   icon: "fas fa-coffee"
-  #   title: "Buy Me a Coffee"
-  #   description: "Support my work"
+  - href: "https://linkedin.com/in/ryanshawferguson"
+    icon: "fab fa-linkedin"
+    title: "LinkedIn"
+    description: "Browse my employment history"
   - href: "mailto:ryan@raijinn.xyz"
     icon: "fas fa-envelope"
     title: "Contact Me"
     description: "For recruitment, collaboration, or consultation"
-  # - href: "https://newsletter.your.site"
-  #   icon: "fas fa-newspaper"
-  #   title: "Newsletter"
-  #   description: "Subscribe for updates"
-  # - href: "https://podcast.your.site"
-  #   icon: "fas fa-podcast"
-  #   title: "Podcast"
-  #   description: "Listen to my show"
-
-# Spotify playlist embed. You can add embed by rigth clicking on your spotify playlist -> Share -> Copy embed. After copying the embed, replace it with the iframe below.
-# spotifyPlaylist:
-#   iframe: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6zcsSLDrLiCpX8KDzNiIhS?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
 
 # Messaging Etiquette. You can add new rules as per your needs.
 messaging:
@@ -84,11 +61,15 @@ about:
   sections:
     - heading: "Professional Background"
       content: |
-        I'm a systems engineer with 6+ years of experience building reliable, scalable, and secure cloud architecture that doesn't break the bank.  
+        I'm a seasoned Infrastructure Engineer with over six years of experience architecting secure, scalable, and cost-efficient cloud platforms. I specialize in Kubernetes (EKS), CI/CD automation, infrastructure as code, and cloud-native observability—enabling engineering teams to move faster without compromising reliability.
         <br><br>
-        I'm a proficient Development Operations (DevOps) practicioner with extensive experience writing CI/CD pipelines, breaking down informational silos, and collaborating with project management and software engineering.
+        At Groundfloor Finance, I designed and governed a multi-tenant EKS environment serving over 25 namespaces with granular IAM and network policies. I built PR-driven Helm-based Kubernetes sandboxes, orchestrated via GitHub Actions and shell scripts, that emulate production environments in minutes. I’ve reduced cloud costs by up to 60% through proactive orphaned-resource cleanup, and modernized mobile CI/CD workflows from Jenkins to GitHub Actions on native macOS runners—cutting build times and improving maintainability.
+        <br><br>
+        Previously, at OpSourced, I led infrastructure standardization across 20+ customer environments, implemented disaster recovery automation for enterprise clients, and migrated critical systems to AWS-based containerized stacks. I've also contributed to microservice deployments, CDN automation, and support tooling during my tenure at Mailchimp.
+        <br><br>
+        Whether building resilient infrastructure, mentoring junior engineers, or bridging silos between ops and dev teams, I bring a pragmatic, automation-first approach to system reliability and delivery velocity.
     - heading: "Current Focus"
-      content: "Currently building an online presence showcasing open-source tooling, technical deep-dives, and "
+      content: "Currently building an online presence showcasing open-source tooling, technical deep-dives, and otherwise sharing things I've learned."
     - heading: "Personal Interests"
-      content: "When not coding, I enjoy running guitar scales, reading, playing video games, and figuring out something interesting to code."
+      content: "When not coding, I enjoy running guitar scales, reading critical analyses of <i>The Sopranos</i>, playing video games, and figuring out something interesting to code or write about."
 ---

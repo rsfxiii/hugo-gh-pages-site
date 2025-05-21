@@ -52,9 +52,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
@@ -88,7 +85,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./site/public
 
   # Deployment job
   deploy:
